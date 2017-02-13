@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
     # list of signed headers
     signed_headers = 'content-type;host;x-amz-date;x-amz-target'
-    subdir = "G:/GitHub/sannapureddy/food-101.tar/food-101/images/Test/apple_pie"
+    subdir = "/food-101.tar/food-101/images/Test/apple_pie"
     for file_name in glob.glob(subdir + '/*'):
         print("file name "+file_name)
         # Our source image: http://i.imgur.com/OK8aDRq.jpg
