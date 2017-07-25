@@ -121,4 +121,4 @@ if __name__ == '__main__':
         formatted_text = json.dumps(json.loads(r.text), indent=4, sort_keys=True)
 
         print('Response code: {}\n'.format(r.status_code))
-        print('Response body:\n{}'.format(formatted_text))
+        print('Response body: \n{}'.format(formatted_text))
